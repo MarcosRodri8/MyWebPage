@@ -32,20 +32,233 @@ nav li :hover{
     background-color: black;
 }
 
-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+.fondo{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(https://www.igaleno.com/wp-content/uploads/2021/07/Informatica-Biomedica.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    height: 760px;
+}   
+
+.fondo-o{
+    background-color: #cbcf9357;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    height: 623px;
 }
+
+.fondo-oo{
+    background-color: #cbcf9357;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    height: 1800px;
+}
+
+
 
 .contenido{
     display: flex;
     margin: 60px;
+    color: white;
+}   
+
+.subtitulo-m{
+    padding-bottom: 10px;
+    color: white;
 }
 
-.articulos{
-    width: 80%;
-    border-right: 3px solid black;
+.subtitulo-o{
+        padding-bottom: 10px;
+        color: black;
 
+}
+
+p.other{
+    font-size:30px;
+    padding-bottom: 10px;
+
+    color: rgb(0, 0, 0);
+}
+
+p.tmain{
+    font-size:30px;
+    padding-bottom: 10px;
+
+    color: rgb(255, 255, 255);
+}
+
+.main{
+    font-size:30px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.nombre{
+    text-align: center;
+}
+
+b.bcontact {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #d1d59d84;
+}
+
+.contact-form {
+    background-color: #d9dda484;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1600px;
+    height: 600px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 8px 0;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: grey;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: grey;
+}
+
+b.dbody {
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+ }
+
+ th,
+ td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+ }
+
+ th {
+    background-color: #f2f2f2;
+  
+ }
+
+ .ctabla {
+    padding: 15px;
+ }
+
+ h2{
+    text-align: center;
+ }
+ 
+ .content {
+    height: 200px;
+    padding-left: 235px;
+}
+
+p.othert{
+    float: left;
+    width: 1025px;
+    font-size:28px;
+    padding-bottom: 10px;
+
+    color: rgb(0, 0, 0);
+}
+
+.FutureMed {
+    float: right;
+    height: 375px;
+    width: 300px;
+    padding-left: 50px;
+
+}
+
+.instagram {
+    padding: 40px;
+    height: 105px;
+    width: 105px;
+    padding-left: 300px;
+}
+
+.ufv {
+    padding: 40px;
+    height: 115px;
+    width: 115px;
+    border-radius: 80px;
+}
+
+p.othera{
+    float: left;
+    width: 893px;
+    font-size:20px;
+    padding-bottom: 10px;
+
+    color: rgb(0, 0, 0);
+}
+
+.cena {
+    float: left;
+    height: 300 px;
+    width: 275px;
+    padding-left: 50px;
+    padding: 0;
+    margin: 0;
+    padding-right: 15px;
+
+}
+
+.fiesta {
+    float: right;
+    height: 300px;
+    width: 200px;
+    padding-left: 50px;
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+
+}
+
+.error{
+    width: 1032px;
+}
+
+.errorr{
+    width: 1032px;
 }
