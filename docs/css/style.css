@@ -262,3 +262,23 @@ p.othera{
 .errorr{
     width: 1032px;
 }
+
+p.links{
+    font-size: 40px;
+    float: left;
+}
+
+
+.friends {
+    float: right;
+    height: 475px;
+    width: 300px;
+    padding-left: 200px;
+}
+
+.contenidol{
+    display: flex;
+    margin: 60px;
+    color: white;
+    margin-left:  250px;
+}   
